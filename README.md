@@ -1,8 +1,8 @@
 Setup your database and run `composer install` and `php artisan migrate`.
 
-The main import expects a file called example_stock.csv to be in the storage/app/public/csv folder.
+The main import command expects a file called example_stock.csv to be in the storage/app/public/csv folder.
 
-Manually add this for the purpose of the demo.
+Manually create a csv folder in storage/app/public and add the example_stock.csv for the purpose of the demo.
 
 Once in place this can then be imported into the database using the command `stoneacre:import-cars-csv`.
 
